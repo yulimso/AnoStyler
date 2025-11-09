@@ -1,0 +1,40 @@
+
+# Random seed for reproducibility
+seed: 77
+
+# category label and defect type
+category: screw    # Category label (e.g., wood, screw, etc.)
+defect: rusty   # Defect type (e.g., scratch, rusty, etc.)
+
+# Path to the normal (good) image used as the content image
+normal_image: <path_to_normal_image>    # ./demo/images/normal_image_ex2.png
+
+# Number of anomaly images to generate
+num_gen: 3
+
+# Directory to save the generated results
+save_path: ./genbyAnoStyler
+
+# Image size settings
+img_width: 512
+img_height: 512
+
+# Hyperparameters for mask generation
+m_max: 5    
+alpha: 0.7  
+
+# Foreground mask (SAM-based)
+fg_mask: true 
+sam_ckpt: ./checkpoints/sam_vit_b_01ec64.pth    
+
+# Style transfer hyperparameters
+crop_size: 128    
+num_crops: 64     
+max_step: 75    
+lr: 0.0005       
+thresh: 0.7       
+lambda_tv: 0.002  
+lambda_pdir: 9000  
+lambda_gdir: 500 
+lambda_c: 150   
+lambda_mclip: 1000 

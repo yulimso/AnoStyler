@@ -1,0 +1,11 @@
+clip==1.0
+numpy==2.3.2
+opencv_contrib_python==4.11.0.86
+Pillow==11.3.0
+scipy==1.16.1
+segment_anything==1.0
+torch==2.5.1
+torchvision==0.20.1
+tqdm==4.67.1
+git+https://github.com/openai/CLIP.git
+git+https://github.com/facebookresearch/segment-anything.git
