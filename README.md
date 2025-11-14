@@ -3,7 +3,7 @@
 **Yulim So¹**, **Seokho Kang¹**  
 ¹Sungkyunkwan University  
 
-[![AAAI 2026](https://img.shields.io/badge/AAAI-2026-paper-blue)](link_to_paper)
+[![AAAI 2026](https://img.shields.io/badge/AAAI-2026-paper-blue)](https://arxiv.org/abs/2511.06687)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.10](https://img.shields.io/badge/python-3.10%2B-informational)]()
 
@@ -78,7 +78,7 @@ AnoStyler/
 
 ---
 
-## 🚀 Quick Start (CLI)
+## Quick Start (CLI)
 The main entry is `main.py`, which reads a YAML config and generates anomalies.
 
 **Config template** (save as `config.yaml`):
@@ -121,7 +121,7 @@ How to use:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 AnoStyler/
 ├─ datasets/
